@@ -26,12 +26,12 @@ function tabCreator(obj){
 }
 
 // Test
-console.log(tabCreator());
+// console.log(tabCreator());
 
 // Select where to go and add it
 const topics = document.querySelector('.topics')
 topics.appendChild(tabCreator());
-console.log(topics)
+// console.log(topics)
 
 axios.get('https://lambda-times-backend.herokuapp.com/topics')
 .then((result) => {

@@ -29,15 +29,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+  - It is a data representation of the objects that comprise the structure and content of a document on the web.
 
 2. What is an event?
+  - Things that happen to HTML elements. Example: click, scroll, resize, etc.
 
 3. What is an event listener?
+  - An event listener is a function that 'watches' a particular area and 'listens' for some type of action to be performed by the user. For example, a click, scroll, resize, etc.
 
 4. Why would we convert a NodeList into an Array?
+  - A NodeList is a broswer API not an array, so we convert it to an array to access and use the data. 
 
 5. What is a component?
-
+  - A component is a re-usable set of instruction, behaviors and elements.
 ### Git Set up
 
 * [x] Fork the project into your GitHub user account
@@ -53,9 +57,9 @@ Your finished project must include all of the following requirements:
 
 * [x] Following the instructions in the `Header/index.js` file, create the Header component. 
 
-* [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
+* [x] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
-* [ ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
+* [x] Following the instructions in the `Cards/index.js` file, create individual Cards components.
 
 ## Stretch Problems
 
